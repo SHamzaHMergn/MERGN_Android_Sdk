@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' } // Add JitPack here if needed
     }
 }
 rootProject.name = "MergnSDK"
