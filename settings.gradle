@@ -5,14 +5,14 @@ pluginManagement {
         mavenCentral()
     }
 }
-dependencyResolutionManagement {
+/*dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' } // Add JitPack here if needed
     }
-}
+}*/
 rootProject.name = "MergnSDK"
 include ':app'
 include ':mergninsights'
